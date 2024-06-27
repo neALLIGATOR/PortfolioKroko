@@ -1,0 +1,290 @@
+@font-face {
+    font-family: FiraCode;
+    src: url(../font/FiraCode.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(29, 31, 36);
+}
+
+#MainBoxShadow {
+    width: 1366px;
+    box-shadow: 0px 0px 41px 10px rgba(111, 122, 131, 0.8);
+    margin: auto;
+    background: rgba(40, 44, 51, 1);
+
+    #Background {
+        background-image: url(../img/background.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 2136px;
+        position: absolute;
+        width: 1366px;
+        top: 670px;
+        z-index: -1;
+    }
+
+    #LineMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        padding-left: 15px;
+
+        #Line {
+            width: 1px;
+            height: 190px;
+            background: rgba(171, 178, 191, 1);
+        }
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    #MainBox {
+        width: 1024px;
+        margin: auto;
+
+        header {
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                #Logo {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 72px;
+                    }
+
+                    span {
+                        color: rgba(171, 178, 191, 1);
+                        font-family: Comfortaa;
+                        font-weight: 900;
+                        font-size: 20px;
+                    }
+                }
+
+                #NavBar {
+                    display: flex;
+                    gap: 32px;
+
+                    .NavLink {
+                        color: rgba(171, 178, 191, 1);
+                        font-family: FiraCode;
+                        font-weight: 400;
+                        font-size: 17px;
+                        text-decoration: none;
+
+                        span {
+                            color: rgba(199, 120, 221, 1);
+                        }
+                    }
+                }
+            }
+        }
+
+        #OneChapter {
+            display: flex;
+            margin-top: 60px;
+            justify-content: space-between;
+            align-items: center;
+
+            #TextBoxOneChapter {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                width: 537px;
+
+                p {
+                    color: white;
+                    font-family: FiraCode;
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 41.98px;
+                    text-align: left;
+
+                    span {
+                        color: rgba(199, 120, 221, 1);
+                        font-family: FiraCode;
+                        font-size: 32px;
+                        font-weight: 600;
+                        line-height: 41.98px;
+                        text-align: left;
+                    }
+                }
+
+                span {
+                    color: rgba(171, 178, 191, 1);
+                    font-family: FiraCode;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    text-align: left;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    border: solid 1px;
+                    border-color: rgb(199, 120, 221);
+                    width: fit-content;
+                    padding: 8px;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    color: white;
+                    font-family: FiraCode;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20.99px;
+                }
+            }
+
+            #ImgBoxOneChapter {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                #TextUnderImg {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    border: solid 1px;
+                    border-color: rgba(171, 178, 191, 1);
+                    padding: 8px;
+
+                    #PurpleCube {
+                        width: 16px;
+                        height: 16px;
+                        background-color: rgb(199, 120, 221);
+                    }
+
+                    p {
+                        font-family: FiraCode;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20.99px;
+                        text-align: left;
+                        color: rgba(171, 178, 191, 1);
+
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        #Quote {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            width: fit-content;
+            margin: auto;
+            margin-top: 112px;
+
+            p {
+                font-family: FiraCode;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 31.49px;
+                padding: 32px;
+                border: 1px solid rgba(171, 178, 191, 1);
+                width: fit-content;
+            }
+
+            p:last-child {
+                font-weight: 400;
+                padding: 16px;
+            }
+
+            img {
+                position: absolute;
+            }
+
+            #OneQ {
+                left: 53.5vh;
+                top: 637px;
+                padding: 8px 4px 8px 4px;
+                background: rgba(40, 44, 51, 1);
+            }
+
+            #TwoQ {
+                padding: 8px 4px 8px 4px;
+                background: rgba(40, 44, 51, 1);
+                right: 53.5vh;
+                top: 735px;
+            }
+        }
+
+        #TwoChapter {
+            margin-top: 75px;
+
+            #TitleBox {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                #TitleAndLine {
+                    display: flex;
+                    align-items: center;
+                    width: 700px;
+
+                    #TitleForm {
+                        display: flex;
+                        align-items: center;
+                        gap: 2px;
+                        width: fit-content;
+
+                        span {
+                            font-family: Fira Code;
+                            font-size: 32px;
+                            font-weight: 500;
+                            line-height: 41.98px;
+                            text-align: left;
+                            color: rgba(199, 120, 221, 1);
+                        }
+
+                        h1 {
+                            font-family: FiraCode;
+                            font-size: 32px;
+                            font-weight: 500;
+                            line-height: 41.98px;
+                            text-align: left;
+                            color: white;
+                            letter-spacing: 1.5px;
+                        }
+                    }
+
+                    #OnePurpleLine {
+                        height: 1px;
+                        width: 100%;
+                        margin-left: 16px;
+                        background: rgba(199, 120, 221, 1);
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: FiraCode;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 20.99px;
+                    text-align: left;
+                    color: white;
+                }
+            }
+        }
+    }
+}

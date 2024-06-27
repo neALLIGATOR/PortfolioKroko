@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@font-face {
+  font-family: FiraCode;
+  src: url(../font/FiraCode.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(29, 31, 36);
+}
+
+#MainBoxShadow {
+  width: 1366px;
+  -webkit-box-shadow: 0px 0px 41px 10px rgba(111, 122, 131, 0.8);
+          box-shadow: 0px 0px 41px 10px rgba(111, 122, 131, 0.8);
+  margin: auto;
+  background: rgb(40, 44, 51);
+}
+#MainBoxShadow #Background {
+  background-image: url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 2136px;
+  position: absolute;
+  width: 1366px;
+  top: 670px;
+  z-index: -1;
+}
+#MainBoxShadow #LineMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  padding-left: 15px;
+}
+#MainBoxShadow #LineMedia #Line {
+  width: 1px;
+  height: 190px;
+  background: rgb(171, 178, 191);
+}
+#MainBoxShadow #LineMedia img {
+  width: 32px;
+  height: 32px;
+}
+#MainBoxShadow #MainBox {
+  width: 1024px;
+  margin: auto;
+}
+#MainBoxShadow #MainBox header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#MainBoxShadow #MainBox header nav #Logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#MainBoxShadow #MainBox header nav #Logo img {
+  width: 72px;
+}
+#MainBoxShadow #MainBox header nav #Logo span {
+  color: rgb(171, 178, 191);
+  font-family: Comfortaa;
+  font-weight: 900;
+  font-size: 20px;
+}
+#MainBoxShadow #MainBox header nav #NavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+#MainBoxShadow #MainBox header nav #NavBar .NavLink {
+  color: rgb(171, 178, 191);
+  font-family: FiraCode;
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+}
+#MainBoxShadow #MainBox header nav #NavBar .NavLink span {
+  color: rgb(199, 120, 221);
+}
+#MainBoxShadow #MainBox #OneChapter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#MainBoxShadow #MainBox #OneChapter #TextBoxOneChapter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  width: 537px;
+}
+#MainBoxShadow #MainBox #OneChapter #TextBoxOneChapter p {
+  color: white;
+  font-family: FiraCode;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41.98px;
+  text-align: left;
+}
+#MainBoxShadow #MainBox #OneChapter #TextBoxOneChapter p span {
+  color: rgb(199, 120, 221);
+  font-family: FiraCode;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41.98px;
+  text-align: left;
+}
+#MainBoxShadow #MainBox #OneChapter #TextBoxOneChapter span {
+  color: rgb(171, 178, 191);
+  font-family: FiraCode;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+#MainBoxShadow #MainBox #OneChapter #TextBoxOneChapter a {
+  text-decoration: none;
+  border: solid 1px;
+  border-color: rgb(199, 120, 221);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  font-family: FiraCode;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.99px;
+}
+#MainBoxShadow #MainBox #OneChapter #ImgBoxOneChapter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#MainBoxShadow #MainBox #OneChapter #ImgBoxOneChapter #TextUnderImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border: solid 1px;
+  border-color: rgb(171, 178, 191);
+  padding: 8px;
+}
+#MainBoxShadow #MainBox #OneChapter #ImgBoxOneChapter #TextUnderImg #PurpleCube {
+  width: 16px;
+  height: 16px;
+  background-color: rgb(199, 120, 221);
+}
+#MainBoxShadow #MainBox #OneChapter #ImgBoxOneChapter #TextUnderImg p {
+  font-family: FiraCode;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.99px;
+  text-align: left;
+  color: rgb(171, 178, 191);
+}
+#MainBoxShadow #MainBox #OneChapter #ImgBoxOneChapter #TextUnderImg p span {
+  color: white;
+}
+#MainBoxShadow #MainBox #Quote {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 112px;
+}
+#MainBoxShadow #MainBox #Quote p {
+  font-family: FiraCode;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.49px;
+  padding: 32px;
+  border: 1px solid rgb(171, 178, 191);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#MainBoxShadow #MainBox #Quote p:last-child {
+  font-weight: 400;
+  padding: 16px;
+}
+#MainBoxShadow #MainBox #Quote img {
+  position: absolute;
+}
+#MainBoxShadow #MainBox #Quote #OneQ {
+  left: 53.5vh;
+  top: 637px;
+  padding: 8px 4px 8px 4px;
+  background: rgb(40, 44, 51);
+}
+#MainBoxShadow #MainBox #Quote #TwoQ {
+  padding: 8px 4px 8px 4px;
+  background: rgb(40, 44, 51);
+  right: 53.5vh;
+  top: 735px;
+}
+#MainBoxShadow #MainBox #TwoChapter {
+  margin-top: 75px;
+}
+#MainBoxShadow #MainBox #TwoChapter #TitleBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#MainBoxShadow #MainBox #TwoChapter #TitleBox #TitleAndLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 700px;
+}
+#MainBoxShadow #MainBox #TwoChapter #TitleBox #TitleAndLine #TitleForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#MainBoxShadow #MainBox #TwoChapter #TitleBox #TitleAndLine #TitleForm span {
+  font-family: Fira Code;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41.98px;
+  text-align: left;
+  color: rgb(199, 120, 221);
+}
+#MainBoxShadow #MainBox #TwoChapter #TitleBox #TitleAndLine #TitleForm h1 {
+  font-family: FiraCode;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41.98px;
+  text-align: left;
+  color: white;
+  letter-spacing: 1.5px;
+}
+#MainBoxShadow #MainBox #TwoChapter #TitleBox #TitleAndLine #OnePurpleLine {
+  height: 1px;
+  width: 100%;
+  margin-left: 16px;
+  background: rgb(199, 120, 221);
+}
+#MainBoxShadow #MainBox #TwoChapter #TitleBox a {
+  text-decoration: none;
+  font-family: FiraCode;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20.99px;
+  text-align: left;
+  color: white;
+}
